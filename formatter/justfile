@@ -1,0 +1,12 @@
+test:
+    cargo test -- --no-capture
+
+lint:
+    cargo clippy -- -D warnings
+
+# We pass allow_dirty so it tries to fix it even if there is uncommited/unstashed files
+fix:
+    cargo clippy --fix --allow-dirty
+
+fmt:
+    cargo fmt --all

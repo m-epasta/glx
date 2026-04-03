@@ -1,0 +1,5 @@
+---
+    let awesome = io.println("Gleam is awesome!")
+---
+
+I love God

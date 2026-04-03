@@ -1,0 +1,1 @@
+Im running on omarchy, antigravity has bad support on it especially with shell. So if a command gets cancelled by me, just check the stdout/stderr and it should be completed. Do not believe the interface of the terminal
