@@ -708,6 +708,7 @@ impl<'a> Parser<'a> {
     }
 }
 
+// TODO: Add or delete some void elements there. All of these are from HTML5
 pub(crate) fn is_void_element(name: &str) -> bool {
     matches!(
         name.to_lowercase().as_str(),
